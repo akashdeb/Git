@@ -1,0 +1,22 @@
+package testNg;
+
+import org.testng.annotations.Test;
+
+public class Disable {
+	
+	@Test
+	public void login() {
+		System.out.println("Login to the application");
+	}
+	
+	@Test
+	public void verifyHomePage() {
+		System.out.println("Home page is verified");
+	}
+	
+	@Test
+	public void logout() {
+		System.out.println("Logout from the application");
+	}
+
+}

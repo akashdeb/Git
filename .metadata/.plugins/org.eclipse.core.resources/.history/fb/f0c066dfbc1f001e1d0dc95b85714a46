@@ -1,0 +1,13 @@
+package testNg;
+
+import org.testng.annotations.Test;
+
+public class MultipleData {
+	
+	@Test
+	public void demo(String a, String b) {
+		System.out.println("State : "+a+" Capital : "+b);
+	}
+	
+
+}

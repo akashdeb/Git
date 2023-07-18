@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T13:02:29 IST" name="Default suite" finished-at="2023-07-11T13:02:29 IST" duration-ms="37">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T13:02:29 IST" name="Default test" finished-at="2023-07-11T13:02:29 IST" duration-ms="37">
+      <class name="testNg.MultipleData">
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:testNg.MultipleData@702b8b12]" started-at="2023-07-11T13:02:29 IST" name="demo" data-provider="data" finished-at="2023-07-11T13:02:29 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:testNg.MultipleData@702b8b12]" started-at="2023-07-11T13:02:29 IST" name="demo" data-provider="data" finished-at="2023-07-11T13:02:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:testNg.MultipleData@702b8b12]" started-at="2023-07-11T13:02:29 IST" name="demo" data-provider="data" finished-at="2023-07-11T13:02:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[West Bengal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testNg.MultipleData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

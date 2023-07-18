@@ -1,0 +1,12 @@
+package testNg;
+
+import org.testng.annotations.Test;
+
+public class Priority {
+	
+	@Test
+	public void akash() {
+		System.out.println("From Akash");
+	}
+
+}

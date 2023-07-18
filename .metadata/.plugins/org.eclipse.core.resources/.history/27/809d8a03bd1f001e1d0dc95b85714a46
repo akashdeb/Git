@@ -1,0 +1,29 @@
+package testNg;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class MultipleData {
+	
+	@Test(dataProvider = "data")
+	public void demo(String a, String b) {
+		System.out.println("State : "+a+" Capital : "+b);
+	}
+	
+	@DataProvider
+	public void data() {
+		String [][] arr = new String[3][2];
+		arr[0][1] ="Delhi";
+		arr[0][2] ="Karnataka";
+		arr[0][3] ="West Bengal";
+		
+		arr[1][1] ="New Delhi";
+		arr[1][2] ="Banglore";
+		arr[1][3] ="Kolkata";
+		
+		
+
+		
+	}
+	
+}
